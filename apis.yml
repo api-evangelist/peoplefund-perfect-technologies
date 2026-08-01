@@ -1,8 +1,28 @@
 aid: peoplefund-perfect-technologies
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/peoplefund-perfect-technologies.png
 name: PeopleFund, Perfect Technologies
-description: PeopleFund, Perfect Technologies is a company surfaced as a portfolio company of 500-global
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  PFC Technologies (formerly PeopleFund) is a Seoul, South Korea fintech company operating at the
+  intersection of direct online lending and AI lending infrastructure. It runs two platforms: CPLE
+  (Crople), an online investment-linked finance (온라인투자연계금융) service that matches retail investors
+  with consumer and small-business loans, and AIRPACK, an AI-powered, no-code underwriting and loan
+  operations infrastructure (AIRPACK-Lab for data analysis, model development and approval-rule tuning,
+  and AIRPACK-Studio for model deployment, rule-set operation and performance monitoring) sold to
+  savings banks and other lending institutions. As of this profile the company publishes no public
+  developer portal, OpenAPI, SDK, or partner API surface; AIRPACK integrations are handled through a
+  direct sales/contact process. This record was surfaced as a 500 Global portfolio company and enriched
+  as an API Evangelist network company profile.
 url: https://raw.githubusercontent.com/api-evangelist/peoplefund-perfect-technologies/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,15 +32,31 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Fintech
+- Lending
+- Investing
+- Artificial Intelligence
+- Credit Scoring
+- Underwriting
+- South Korea
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
 common:
+- type: DomainSecurity
+  url: security/peoplefund-perfect-technologies-domain-security.yml
 - type: Website
   url: https://pfct.co.kr
+- type: Blog
+  url: https://blog.pfct.co.kr
