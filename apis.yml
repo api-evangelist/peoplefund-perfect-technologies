@@ -43,7 +43,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-20'
+modified: '2026-10-06'
 tags:
 - Company
 - Fintech
@@ -65,6 +65,8 @@ x-enrichment:
   artifacts_added: 0
   pass: local-v1
 common:
+- url: https://blog.pfct.co.kr/feed/
+  type: BlogRSS
 - type: DomainSecurity
   url: security/peoplefund-perfect-technologies-domain-security.yml
 - type: Website
